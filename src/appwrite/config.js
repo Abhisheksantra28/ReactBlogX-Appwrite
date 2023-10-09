@@ -103,7 +103,7 @@ export class Service {
         file
       );
     } catch (error) {
-      console.log("Appwrite Service :: createPost::error", error);
+      console.log("Appwrite Service :: uploadFile::error", error);
       return false;
     }
   }
@@ -114,7 +114,7 @@ export class Service {
 
       return true;
     } catch (error) {
-      console.log("Appwrite Service :: createPost::error", error);
+      console.log("Appwrite Service :: deleteFile::error", error);
       return false;
     }
   }
